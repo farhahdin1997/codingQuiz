@@ -1,13 +1,14 @@
+/* Declaring the questions*/
 var questions = [
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
-        answer: "alerts"
+        title: "Select a correct html syntax",
+        choices: ["div", "section", "html", "numbers"],
+        answer: "section"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
+        title: "What does HTML stand for?",
+        choices: ["Hyperlinks and Text Markup Language", "Hyper Text Markup Language", "Home Tool Markup Language"],
+        answer: "Hyper Text Markup Language"
     },
     {
         title: "Arrays in Javascript can be used to store ____.",
@@ -15,14 +16,15 @@ var questions = [
         answer: "all of the above"
     },
     {
-        title: "String values must be enclosed within ____ when being assigned to variables.",
-        choices: ["commas", "curly brackets", "quotes", "parenthesis"],
-        answer: "quotes"
+        title: "Who is making the Web standards",
+        choices: ["Borris Johnson", "Google", "Queen", "The World Wide Web Consortium "],
+        answer: "The World Wide Web Consortium "
     },
     {
-        title: "A very useful tool for used during development and debugging for printing content to the debugger is:",
-        choices: ["Javascript", "terminal / bash", "for loops", "console log"],
-        answer: "console log"
+        title: "Choose the correct HTML element for the largest heading:",
+        choices: ["<h1>", "<h6>", "<head>", "<heading>"],
+        answer: "<h1>"
     },
 
 ];
+
