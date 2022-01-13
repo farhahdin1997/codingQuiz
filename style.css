@@ -6,12 +6,10 @@
   }
 
   :root {
-    --primary-color: #cc6600;
    
-    --tertiary-color: #aaaaaa;
-    --white-color: #ffffff;
-    --correct-color: #6b8e23;
   }
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -41,3 +39,51 @@ header {
     color: black;
   }
   
+/* Buttons*/
+
+/* Buttons */
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  button {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    width: auto;
+    overflow: visible;
+    padding: 10px;
+    background-color: plum;
+    border-radius: 10px;
+    font-size: large;
+    margin: 10px;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: grey;
+  }
+
+  .hide {
+    display: none;
+  }
+  
+  /* change the colors*/
+  .btn.correct {
+    background-color: green;
+  }
+  
+  .btn.wrong {
+    background-color:red;
+  }
+
+  /* Wrapper for buttons */
+.ButtonControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+
