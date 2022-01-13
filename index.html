@@ -21,7 +21,7 @@
 
   <!-- start screen the user will view this and be able to click the button to go onto the next page-->
     <section id="start-section" class="start-screen">
-        <h1>Welcome to JavaScript Quiz Challenge</h1>
+        <h1>Welcome to HTML Syntax Quiz Challenge</h1>
         <p>
             You have 75 seconds to answer five sets of HTML Syntax questions in order to get the highest score. Your time will be reduced by ten seconds if you answer incorrectly. After you answer the last question, your total score will be your time. When you're ready, press the start button.
         </p>
@@ -30,7 +30,20 @@
         </div>
     </section>
 
-
+<!-- Questions section-->
+<section id="question-container" class="hide">
+        <h1 id="question">Question</h1>
+        <div id="answer-btn" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+        <h2 id="check-answer" class="correct-wrong hide"></h2>
+        <div class="controls">
+            <button id="next-btn" class="next-btn hide">Next</button>
+        </div>
+    </section>
 </body>
 </html>
  
