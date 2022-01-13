@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --primary-color: #cc6600;
+   
+    --tertiary-color: #aaaaaa;
+    --white-color: #ffffff;
+    --correct-color: #6b8e23;
+  }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  /* Header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 0;
+  }
+
+  /*Styling view score and time at the top*/
+  .HighScores p,
+  .timer {
+    font-size: 20px;
+  }
+
+  .HighScores p {
+    color: black;
+  }
+  

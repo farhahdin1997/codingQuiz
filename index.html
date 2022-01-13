@@ -5,10 +5,35 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
 <body>
-<h1> hello world</h1>
+    <!-- shows the score timer at the top of the page -->
+    <header>
+        <div class="HighScores">
+          <p>View high scores</p>
+        </div>
+        <div id="timer" class="timer">
+            Time: 75
+        </div>
+    </header>
+
+    <section id="highscores" class="highscores-container hide">
+        <div id="high-scores">
+            <h1 class="centered">Leaderboard</h1>
+            <div id="highscore" class="highscore highscore-list">
+            </div>
+            <div class="controls">
+                <button id="restart-btn">Restart</button>
+                <button id="clear-btn">Clear Scores</button>
+            </div>
+        </div>
+        
+    </section>
+
+
+
 </body>
 </html>
+ 
